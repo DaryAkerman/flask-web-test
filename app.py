@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    return 'Hello world!'
+    return 'Hello world and Hello College!'
 
 @app.route('/age', methods=['GET'])
 def get_age():
